@@ -1,0 +1,15 @@
+package day3Ex;
+
+public class Taxi extends Car{
+	Taxi(){
+		System.out.println("sub no arg cons");
+	}
+	public void methd1(){
+		System.out.println("sub Method");
+	}
+	public static void main(String[] args) {
+		Taxi taxi=new Taxi();
+		taxi.methd();
+	}
+
+}

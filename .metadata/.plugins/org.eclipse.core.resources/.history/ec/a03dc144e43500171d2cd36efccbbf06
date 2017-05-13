@@ -1,0 +1,13 @@
+package day3Ex;
+
+class SubCls {
+/*SubCls() {
+System.out.println("superclass empty cons");
+}	
+
+SubCls(int num) {
+System.out.println("superclass empty cons"+num);
+}*/	
+}
+
+//public class 

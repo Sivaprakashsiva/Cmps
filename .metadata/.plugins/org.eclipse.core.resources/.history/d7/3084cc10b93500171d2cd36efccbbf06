@@ -1,0 +1,16 @@
+package Day3;
+
+import java.util.Scanner;
+
+public class WorldPopulation {
+public static void main(String[] args) {
+	Scanner scanner=new Scanner(System.in);
+	float current=scanner.nextInt();
+	float growthRate=scanner.nextInt();
+	float oneYear=current+growthRate;
+	float twoYear=oneYear+growthRate;
+	float threeYear=twoYear+growthRate;
+	System.out.println();
+	
+}
+}

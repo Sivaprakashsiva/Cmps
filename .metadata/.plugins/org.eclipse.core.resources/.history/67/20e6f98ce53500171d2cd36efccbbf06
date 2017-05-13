@@ -1,0 +1,26 @@
+package day3Ex;
+
+class SuperCls {
+    SuperCls() {
+       System.out.println("Super class empty cons");
+       }	
+
+    SuperCls(int num) {
+	   super();
+       System.out.println("Superclass 1Arg cons  "+num);
+       }	
+}
+
+public class SubCls extends SuperCls{
+	SubCls() {
+		System.out.println("Sub class empty cons");
+		}	
+
+	SubCls(int num) {
+		super(num);
+		System.out.println("Sub class 1Arg cons  "+num);
+		}
+	public static void main(String[] args) {
+	       new SubCls(5);
+	}
+}

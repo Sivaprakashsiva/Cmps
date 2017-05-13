@@ -1,0 +1,18 @@
+package dayEx;
+
+import java.util.Scanner;
+
+public class GasMilages {
+	public static void main(String[] args) {
+		long l=10000l;
+		float l2=l;
+		System.out.println(l2);
+//		Scanner scanner=new Scanner(System.in);
+//		int gallonsUsed=scanner.nextInt();
+//	    int milesDriven=scanner.nextInt();
+//	    float averages=milesDriven/gallonsUsed;
+//	    System.out.println("Miles per Gallons is "+averages);
+	    
+	}
+	
+}

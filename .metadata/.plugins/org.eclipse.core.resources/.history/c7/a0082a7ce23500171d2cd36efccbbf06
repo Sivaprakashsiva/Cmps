@@ -1,0 +1,30 @@
+package day3Ex;
+
+public class Static {
+	private static int count=6;
+	private int num=0;
+	
+	static{
+		count++;
+		System.out.println("cunt first"+count);
+	}
+	
+	public static void firstSta(){
+		count++;
+		System.out.println("first"+count);
+	}
+	
+	public void firstMtd(){
+		count++;
+		num++;
+		System.out.println("firstmtd"+count+""+num);
+	}
+	public static void main(String[] args) {
+		Static sta=new Static();
+		System.out.println(sta.num);
+		System.out.println(count);
+		sta.firstMtd();
+	}
+	
+
+}
